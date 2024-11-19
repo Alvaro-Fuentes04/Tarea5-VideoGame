@@ -8,10 +8,10 @@ class Bootloader extends Phaser.Scene {
     });
 
     this.load.image('background', '../assets/background.png'); // Cambia "background.png" por el nombre de tu archivo
-    this.load.image("ball", "./assets/ball.png");
-    this.load.image("izquierda", "./assets/left_pallete.png");
-    this.load.image("derecha", "./assets/right_pallete.png");
-    this.load.image("separador", "./assets/separator.png");
+    this.load.image("ball", "./public/assets/ball.png");
+    this.load.image("izquierda", "./public/assets/left_pallete.png");
+    this.load.image("derecha", "./public/assets/right_pallete.png");
+    this.load.image("separador", "./public/assets/separator.png");
   }
 }
 
